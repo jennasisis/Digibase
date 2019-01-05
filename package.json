@@ -1,0 +1,29 @@
+{
+  "name": "digibase",
+  "version": "0.0.1",
+  "description": "A Digital IF-AT solution",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "electronemon": "nodemon --watch * --exec 'electron .'"
+  },
+  "keywords": [
+    "Electron",
+    "IF-AT",
+    "HTML",
+    "JS",
+    "Prototype"
+  ],
+  "author": "Sochima",
+  "license": "none",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "electron": "^3.0.7",
+    "electron-packager": "^13.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  }
+}

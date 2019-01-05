@@ -1,0 +1,17 @@
+/*mainWindow.css*/
+
+div#test{
+    border: none; /*Adds a border around the focus point*/
+    padding: 10px 40px 40px 40px; /* Add some padding */
+}
+
+.start {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #2196F3;
+    font-size: 10vw;
+    display: flex;
+    margin: 0 auto;
+  }
